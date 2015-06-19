@@ -18,6 +18,7 @@ mkdir -p ${PROJECT}
 
 cp ${WHEREAMI}/Vagrantfile.template ${PROJECT}/Vagrantfile
 cp ${WHEREAMI}/Makefile.template ${PROJECT}/Makefile
+cp ${WHEREAMI}/.gitignore.template ${PROJECT}/.gitignore
 
 NAME=`basename ${PROJECT}`
 
