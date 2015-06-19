@@ -47,7 +47,7 @@ fi
 
 ${PERL} -pi -e "s!__VAGRANT_SHELL__!${SHELL}!" ${PROJECT}/Vagrantfile
 
-echo "Spinning ${NAME} up now (y/n): "
+echo "Spin up ${NAME} now (y/n): "
 read UP
 
 if [ "${UP}" == "y" ]
