@@ -1,0 +1,9 @@
+start:
+	vagrant up
+	vagrant ssh
+
+stop:
+	vagrant halt
+
+go:
+	vagrant ssh
