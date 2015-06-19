@@ -21,7 +21,7 @@ cp ${WHEREAMI}/Makefile.template ${PROJECT}/Makefile
 
 NAME=`basename ${PROJECT}`
 
-${PERL} -pi -e "s!__VAGRANT_HOST_22__!${PORT}!" ${PROJECT}/Vagrantfile
+${PERL} -pi -e "s!__VAGRANT_NAME__!${NAME}!" ${PROJECT}/Vagrantfile
 
 echo "What port should we forward port 80 to: "
 read PORT
