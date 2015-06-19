@@ -11,7 +11,7 @@ Tools for managing Vagrant instances
 	$> 6666
 	Shell hoohah on build: 
 	$> 
-	Spinning foo up now (y/n): 
+	Spin up foo now (y/n): 
 	$> n
 	all done
 
